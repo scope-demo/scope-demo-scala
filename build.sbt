@@ -13,5 +13,5 @@ lazy val root = project
   .in(file("."))
   .enablePlugins(JavaAgent)
   .settings(
-    javaAgents += "com.undefinedlabs.scope" % "scope-agent" % "0.2.3" % "test"
+    javaAgents += "com.undefinedlabs.scope" % "scope-agent" % "0.2.4" % "test"
   )

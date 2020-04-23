@@ -8,4 +8,4 @@ instrumentation:
   http:
     payloads: true
 runner:
-  enabled: false
+  enabled: true
